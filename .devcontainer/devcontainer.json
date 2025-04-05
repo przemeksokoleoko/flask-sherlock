@@ -6,6 +6,7 @@
       "memory": "4gb",
       "storage": "16gb" 
     },
+    "postCreateCommand": "pip install app/requirements.txt",
     "features": {
       "ghcr.io/devcontainers-contrib/features/black:1": {},
       "ghcr.io/devcontainers-contrib/features/pylint:1": {},
